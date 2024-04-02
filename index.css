@@ -1,0 +1,49 @@
+.karty{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.karty img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.karty h4, span{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.butn{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.status{
+
+}
+
+.dead{
+    color: red;
+    text-decoration: line-through;
+}
+.alive{
+    color: green;
+}
+.unknown{
+    color: gray;
+}
+.result{
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
